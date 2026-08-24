@@ -112,7 +112,7 @@ The visual direction uses a calm tourism-inspired palette, large editorial typog
 
 The About section explains the Nomadica travel concept and presents the website as a simple, approachable tourism experience focused on memorable places and thoughtful planning.
 
-![Nomadica About](screenshots/02-about.jpeg)
+![Nomadica About](screenshots/02-about-team.jpeg)
 
 ---
 
@@ -120,7 +120,7 @@ The About section explains the Nomadica travel concept and presents the website 
 
 The Team section presents example travel-team profiles using consistent cards, image proportions, typography, and spacing.
 
-![Nomadica Team](screenshots/03-team.jpeg)
+![Nomadica Team](screenshots/03-destinations-gallery.jpeg)
 
 > Team names and profile content are demonstration content used for this frontend training project.
 
