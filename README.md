@@ -1,205 +1,202 @@
-div align="center">
+<div align="center">
 
-🌍 Nomadica — Tourism Website
+# 🌍 Nomadica — Tourism Website
 
-Frontend Web Development Internship Training Project
+### Frontend Web Development Internship Training Project
 
-HTML5 • CSS3 • Bootstrap • JavaScript
+**HTML5 • CSS3 • Bootstrap • JavaScript**
 
-Violet Programming — Software Company | Beirut–Tyre, Lebanon
-Supervisor: Ms. Kawthar Muslimani — Full Stack Web Developer
-Academic Year: 2024–2025
+**Violet Programming — Software Company | Beirut–Tyre, Lebanon**  
+**Supervisor:** Ms. Kawthar Muslimani — Full Stack Web Developer  
+**Academic Year:** 2024–2025
 
 </div>
 
-────────
+---
 
-📑 Table of Contents
+## 📑 Table of Contents
 
-• Overview
-• Internship Context
-• My Contribution
-• Home & Hero
-• About & Team
-• Destinations & Gallery
-• Plan Your Trip
-• Responsive Design
-• Technology Stack
-• Project Structure
-• How to Run
-• Testing
-• Learning Outcomes
-• Related Internship Project
-• Acknowledgment
-• Project Status
-• Author
+- [Overview](#overview)
+- [Internship Context](#internship-context)
+- [My Contribution](#my-contribution)
+- [Home & Hero](#home--hero)
+- [About Nomadica](#about-nomadica)
+- [Team Section](#team-section)
+- [Destinations & Gallery](#destinations--gallery)
+- [Plan Your Trip](#plan-your-trip)
+- [Responsive Design](#responsive-design)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Testing](#testing)
+- [Learning Outcomes](#learning-outcomes)
+- [Related Internship Project](#related-internship-project)
+- [Acknowledgment](#acknowledgment)
+- [Project Status](#project-status)
+- [Author](#author)
 
-────────
+---
 
-📌 Overview
+## Overview
 
-Nomadica is a tourism website created during the first stage of my web development training at Violet Programming.
+**Nomadica** is a tourism website created during **Level 1 — Frontend Development** of my web development training at **Violet Programming**.
 
-The project was designed as a frontend learning experience focused on building a complete multi-section tourism interface using HTML, CSS, Bootstrap, and JavaScript.
+The project focused on building and organizing a complete tourism interface using HTML, CSS, Bootstrap, and JavaScript. It includes a travel-focused landing page, destination content, an image gallery, team presentation, reviews, and a frontend trip-planning form.
 
-It includes destination discovery, travel imagery, team information, reviews, and a frontend trip-planning form.
+This repository represents one of my earliest practical web-development projects and documents the frontend foundation I built before moving into PHP, MySQL, and introductory backend development.
 
-This repository represents one of my earliest practical web-development projects and documents the foundation I built before moving into backend and database development.
+---
 
-────────
+## Internship Context
 
-🎓 Internship Context
+My web development training at **Violet Programming** was divided into two practical stages.
 
-My training at Violet Programming was structured around two practical learning stages.
+### Level 1 — Frontend Development
 
-Level 1 — Frontend Development
+**Nomadica** represents the first stage of the training and focused on:
 
-Nomadica represents the first stage of the training.
+- HTML page structure
+- CSS styling
+- Bootstrap layouts and components
+- JavaScript interactions
+- Navigation
+- Forms
+- Responsive layout techniques
+- Organizing a complete multi-section website
 
-The main focus was:
+### Level 2 — Backend & Database Development
 
-• HTML page structure
-• CSS styling
-• Bootstrap components and layouts
-• JavaScript interactions
-• Navigation
-• Responsive layout techniques
-• Forms
-• Organizing a complete website interface
+The second stage continued with **VP Courses**, where the training introduced:
 
-Level 2 — Backend & Database Development
+- PHP
+- MySQL
+- CRUD operations
+- Admin-side functionality
+- Sessions
+- Forms and image handling
+- Dynamic database-driven content
 
-After the frontend stage, the training continued with PHP and MySQL concepts through the VP Courses project.
+Together, the two projects show the progression of the internship from frontend fundamentals to introductory full-stack development.
 
-That stage introduced:
+---
 
-• PHP
-• MySQL
-• CRUD operations
-• Admin-side functionality
-• Sessions
-• Forms and file handling
-• Dynamic database-driven content
-
-Together, the two projects represent the progression of the internship from frontend fundamentals to introductory full-stack development.
-
-────────
-
-👩‍💻 My Contribution
+## My Contribution
 
 During the Nomadica frontend stage, I worked on:
 
-• Structuring the website with HTML5
-• Styling and organizing the interface with CSS
-• Using Bootstrap for layout and components
-• Building the navigation experience
-• Creating tourism destination sections
-• Building image-based gallery content
-• Creating About and Team sections
-• Adding reviews/testimonial presentation
-• Creating the Plan Your Trip frontend form
-• Applying responsive layout techniques
-• Improving visual consistency across the website
+- Structuring the website with HTML5
+- Styling and organizing the interface with CSS
+- Using Bootstrap for layout and reusable components
+- Building the navigation experience
+- Creating tourism destination sections
+- Organizing image-based gallery content
+- Creating About and Team sections
+- Presenting reviews/testimonials
+- Building the Plan Your Trip frontend form
+- Applying responsive layout techniques
+- Improving spacing, alignment, typography, and overall visual consistency
 
-────────
+---
 
-🏠 Home & Hero
+## Home & Hero
 
-The homepage introduces Nomadica through a travel-focused hero section and clear navigation to the main areas of the website.
+The homepage introduces **Nomadica** through a travel-focused hero section with clear navigation and calls to action.
 
-The visual direction uses travel photography, a calm tourism-inspired palette, and clear calls to action to encourage visitors to explore destinations or plan a trip.
+The visual direction uses a calm tourism-inspired palette, large editorial typography, and destination imagery to create a strong first impression.
 
-Nomadica Home and Hero
+![Nomadica Home Hero](screenshots/01-home-hero.jpeg)
 
-────────
+---
 
-✨ About & Team
+## About Nomadica
 
-The About section introduces the Nomadica concept and presents the website as a travel experience focused on exploration and memorable destinations.
+The About section explains the Nomadica travel concept and presents the website as a simple, approachable tourism experience focused on memorable places and thoughtful planning.
 
-The Team area complements the tourism interface with guide/team presentation cards and consistent visual styling.
+![Nomadica About](screenshots/02-about.jpeg)
 
-Nomadica About and Team
+---
+
+## Team Section
+
+The Team section presents example travel-team profiles using consistent cards, image proportions, typography, and spacing.
+
+![Nomadica Team](screenshots/03-team.jpeg)
 
 > Team names and profile content are demonstration content used for this frontend training project.
 
-────────
+---
 
-🗺️ Destinations & Gallery
+## Destinations & Gallery
 
-The destinations section presents selected travel locations through image-focused cards.
+The destinations and gallery sections focus on visual travel discovery through destination cards and image-based layouts.
 
-The gallery extends the visual experience with destination photography arranged to create a more engaging travel-focused interface.
+Frontend concepts practiced in these sections include:
 
-Key frontend concepts practiced in these sections include:
+- Image presentation
+- Card layouts
+- Grid organization
+- Spacing and alignment
+- Hover interactions
+- Responsive content arrangement
 
-• Image presentation
-• Card layouts
-• Grid organization
-• Spacing and alignment
-• Hover interactions
-• Responsive content arrangement
+---
 
-Nomadica Destinations and Gallery
+## Plan Your Trip
 
-────────
+Nomadica includes a dedicated **Plan Your Trip** page with a frontend travel inquiry form.
 
-✈️ Plan Your Trip
+The form contains fields for:
 
-Nomadica includes a dedicated Plan Your Trip page containing a frontend travel inquiry form.
+- Full Name
+- Email
+- Phone
+- Preferred Destination
+- Preferred Travel Date
+- Number of Travelers
+- Message / Special Requests
 
-The form includes fields such as:
+The form is intentionally a **frontend demonstration** and is not connected to a backend or database.
 
-• Full Name
-• Email
-• Phone
-• Preferred Destination
-• Travel Date
-• Number of Travelers
-• Special Requests
+![Nomadica Plan Your Trip](screenshots/04-plan-your-trip.jpeg)
 
-This form is intentionally a frontend demonstration and is not connected to a backend service or database.
+---
 
-Nomadica Plan Your Trip
+## Responsive Design
 
-────────
-
-📱 Responsive Design
-
-The project uses Bootstrap and custom CSS techniques to adapt the layout across desktop and smaller screen sizes.
+The project uses Bootstrap and custom CSS techniques to adapt the interface across desktop and smaller screen sizes.
 
 Responsive considerations include:
 
-• Navigation behavior
-• Flexible content grids
-• Stacked layouts on smaller screens
-• Image scaling
-• Form layout adaptation
-• Readable typography across different viewport sizes
+- Navigation behavior
+- Flexible content grids
+- Stacked layouts on smaller screens
+- Image scaling
+- Form layout adaptation
+- Readable typography across different viewport sizes
 
-As an early frontend training project, the primary goal was to practice responsive layout concepts while maintaining a consistent tourism interface.
+As an early frontend training project, the goal was to practice responsive layout concepts while maintaining a consistent tourism interface.
 
-────────
+---
 
-🧰 Technology Stack
+## Technology Stack
 
-Frontend
+### Frontend
 
-• HTML5
-• CSS3
-• Bootstrap
-• JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
 
-Development Tools
+### Development Tools
 
-• Visual Studio Code
-• Browser Developer Tools
-• Git
-• GitHub
+- Visual Studio Code
+- Browser Developer Tools
+- Git
+- GitHub
 
-────────
+---
 
-📁 Project Structure
+## Project Structure
 
 ```text
 nomadica-tourism-website/
@@ -209,137 +206,128 @@ nomadica-tourism-website/
 │
 ├── assets/
 │   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
 │   ├── images/
-│   └── video/
+│   └── js/
 │
 ├── screenshots/
 │   ├── 01-home-hero.jpeg
-│   ├── 02-about-team.jpeg
-│   ├── 03-destinations-gallery.jpeg
+│   ├── 02-about.jpeg
+│   ├── 03-team.jpeg
 │   └── 04-plan-your-trip.jpeg
 │
 └── README.md
 ```
 
-────────
+---
 
-⚙️ How to Run
+## How to Run
 
 No backend, database, or installation process is required.
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/fatimahammoud-dev/nomadica-tourism-website.git
 ```
 
-2. Open the project folder
+### 2. Open the project folder
 
 ```text
 nomadica-tourism-website/
 ```
 
-3. Open the website
+### 3. Open the website
 
-Open:
+Open `index.html` in a modern web browser.
 
-```text
-index.html
-```
+---
 
-in a modern web browser.
-
-────────
-
-✅ Testing
+## Testing
 
 The main frontend flow was reviewed for:
 
-• ✅ Homepage loading
-• ✅ Navigation
-• ✅ Hero section
-• ✅ About section
-• ✅ Team section
-• ✅ Destination cards
-• ✅ Gallery
-• ✅ Reviews
-• ✅ Plan Your Trip CTA
-• ✅ Travel inquiry form
-• ✅ Local image and asset loading
-• ✅ Desktop layout
-• ✅ Smaller-screen layout behavior
+- Homepage loading
+- Navigation
+- Hero section
+- About section
+- Team section
+- Destination cards
+- Gallery
+- Reviews
+- Plan Your Trip CTA
+- Travel inquiry form
+- Local image and asset loading
+- Desktop layout
+- Smaller-screen layout behavior
 
-────────
+---
 
-🌱 Learning Outcomes
+## Learning Outcomes
 
 Nomadica helped me build a practical foundation in frontend web development.
 
 Through this project, I practiced:
 
-• Translating a website idea into structured HTML
-• Styling complete interfaces with CSS
-• Working with Bootstrap layouts and components
-• Organizing multi-section pages
-• Managing images and visual assets
-• Building navigation between sections and pages
-• Creating and styling HTML forms
-• Applying responsive layout concepts
-• Improving spacing, alignment, and visual hierarchy
-• Understanding how individual frontend components combine into a complete website
+- Translating a website idea into structured HTML
+- Styling complete interfaces with CSS
+- Working with Bootstrap layouts and components
+- Organizing multi-section pages
+- Managing images and visual assets
+- Building navigation between sections and pages
+- Creating and styling HTML forms
+- Applying responsive layout concepts
+- Improving spacing, alignment, and visual hierarchy
+- Understanding how individual frontend components combine into a complete website
 
-────────
+---
 
-🔗 Related Internship Project
+## Related Internship Project
 
-This project represents Level 1 — Frontend Development of my web development training at Violet Programming.
+This project represents **Level 1 — Frontend Development** of my training at Violet Programming.
 
-The second stage of the same training focused on backend and database fundamentals through:
+The second stage of the same training is documented in:
 
-🎓 VP Courses — Course Management System
+### 🎓 VP Courses — Course Management System
 
-Level 2 — PHP & MySQL / Backend & Database Training
+**Level 2 — PHP & MySQL / Backend & Database Training**
 
-🔗 View VP Courses on GitHub
+🔗 [View VP Courses on GitHub](https://github.com/fatimahammoud-dev/vpcourses-training-project)
 
-VP Courses represents the second stage of the same internship journey, focusing on introductory backend development, database interaction, CRUD operations, and admin-side functionality.
+VP Courses represents the next stage of the internship journey, focusing on introductory backend development, database interaction, CRUD operations, and admin-side functionality.
 
-────────
+---
 
-🙏 Acknowledgment
+## Acknowledgment
 
-I would like to sincerely thank Ms. Kawthar Muslimani, Full Stack Web Developer and my training supervisor at Violet Programming, for her guidance, technical support, and encouragement throughout the training.
+I would like to sincerely thank **Ms. Kawthar Muslimani**, Full Stack Web Developer and my training supervisor at **Violet Programming**, for her guidance, technical support, and encouragement throughout the training.
 
-I also thank Violet Programming for providing the opportunity to practice both frontend and backend web-development concepts through hands-on training projects.
+I also thank **Violet Programming** for providing the opportunity to practice frontend and backend web-development concepts through hands-on training projects.
 
-────────
+---
 
-📌 Project Status
+## Project Status
 
-Status: Completed Internship Training Project
-Training Stage: Level 1 — Frontend Development
-Project Type: Tourism Website
-Main Focus: HTML • CSS • Bootstrap • JavaScript • Frontend UI
-Backend: None — Frontend demonstration only
+**Status:** Completed Internship Training Project  
+**Training Stage:** Level 1 — Frontend Development  
+**Project Type:** Tourism Website  
+**Main Focus:** HTML • CSS • Bootstrap • JavaScript • Frontend UI  
+**Backend:** None — Frontend demonstration only
 
-────────
+---
 
-👩‍💻 Author
+## Author
 
-Fatima Hammoud
+### Fatima Hammoud
 
-Computer & Communication Network Engineering
+**Computer & Communication Network Engineering**  
 Lebanese University — Faculty of Technology
 
-────────
+---
 
 <div align="center">
 
-Developed during Web Development Training at Violet Programming
+### Developed during Web Development Training at Violet Programming
 
-Level 1 — Building the frontend foundation before moving into PHP & MySQL development.
+**Level 1 — Building the frontend foundation before moving into PHP & MySQL development.**
 
 </div>
