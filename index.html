@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nomadica is a refined frontend tourism website created as an early web development training project.">
+  <meta name="theme-color" content="#0f2744">
+  <title>Nomadica | Explore More. Travel Better.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="Nomadica home">
+          <img src="assets/images/general/nomadica-logo.jpg" alt="Nomadica logo" class="brand-logo" width="42" height="42">
+          <span>Nomadica</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+            <li class="nav-item ms-lg-2"><a class="btn btn-primary nav-cta" href="form-page.html">Plan Your Trip</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" aria-label="Nomadica introduction">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero/hero-poster.jpg" aria-hidden="true">
+        <source src="assets/video/hero-travel.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row">
+          <div class="col-lg-8 col-xl-7">
+            <p class="eyebrow">Curated travel experiences</p>
+            <h1>Explore More.<br><span>Travel Better.</span></h1>
+            <p class="hero-copy">Discover memorable destinations, thoughtful itineraries, and travel experiences designed around the way you want to explore.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary btn-lg" href="#destinations">Explore Destinations</a>
+              <a class="btn btn-outline-light btn-lg" href="form-page.html">Plan Your Trip</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">Scroll</a>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="image-frame">
+              <img src="assets/images/about/about-travel-map.jpg" alt="Travel map and airplane representing trip planning" loading="lazy">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="eyebrow dark">About Nomadica</p>
+            <h2 class="section-title">Travel that feels personal, not packaged.</h2>
+            <p class="lead-copy">Nomadica is a tourism concept built around simple planning, inspiring destinations, and experiences that feel intentional from the first idea to the final day of the trip.</p>
+            <div class="about-points">
+              <article>
+                <span>01</span>
+                <div><h3>Thoughtful Planning</h3><p>Clear travel ideas, useful guidance, and flexible trip planning.</p></div>
+              </article>
+              <article>
+                <span>02</span>
+                <div><h3>Memorable Places</h3><p>A mix of city escapes, islands, culture, nature, and adventure.</p></div>
+              </article>
+              <article>
+                <span>03</span>
+                <div><h3>Human Experience</h3><p>A warm, approachable travel experience designed around the traveler.</p></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-heading text-center mx-auto">
+          <p class="eyebrow dark">The people behind the journey</p>
+          <h2 id="team-title" class="section-title">Meet the Nomadica Team</h2>
+          <p>A small team focused on planning, storytelling, and shaping enjoyable travel experiences.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <article class="team-card h-100">
+              <img src="assets/images/team/team-john-smith.jpg" alt="John Smith, Nomadica CEO" loading="lazy">
+              <div class="team-card-body">
+                <p class="role">Founder & CEO</p>
+                <h3>John Smith</h3>
+                <p>Focused on travel planning, responsible tourism, and creating experiences that connect people with places.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="team-card h-100">
+              <img src="assets/images/team/team-jane-doe.jpg" alt="Jane Doe, Nomadica Marketing Director" loading="lazy">
+              <div class="team-card-body">
+                <p class="role">Marketing Director</p>
+                <h3>Jane Doe</h3>
+                <p>Shapes the brand story and turns destinations into clear, inspiring travel ideas for different audiences.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="team-card h-100">
+              <img src="assets/images/team/team-michael-brown.jpg" alt="Michael Brown, Nomadica Experience Designer" loading="lazy">
+              <div class="team-card-body">
+                <p class="role">Experience Designer</p>
+                <h3>Michael Brown</h3>
+                <p>Brings visual thinking and practical details together to make the travel experience feel clear and cohesive.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="destinations">
+      <div class="container">
+        <div class="section-heading d-lg-flex justify-content-between align-items-end gap-4">
+          <div>
+            <p class="eyebrow dark">Where to next?</p>
+            <h2 class="section-title mb-0">Explore Our Top Destinations</h2>
+          </div>
+          <p class="section-intro mb-1">From iconic European cities to island escapes and nature-focused adventures.</p>
+        </div>
+
+        <div class="destination-grid">
+          <article class="destination-card">
+            <img src="assets/images/destinations/paris.jpg" alt="Paris skyline and Eiffel Tower" loading="lazy">
+            <div class="destination-overlay"><span>France</span><h3>Paris</h3><p>Art, architecture, cafés, and timeless city views.</p></div>
+          </article>
+          <article class="destination-card">
+            <img src="assets/images/destinations/santorini.jpg" alt="Santorini coastline in Greece" loading="lazy">
+            <div class="destination-overlay"><span>Greece</span><h3>Santorini</h3><p>Whitewashed villages, sea views, and unforgettable sunsets.</p></div>
+          </article>
+          <article class="destination-card">
+            <img src="assets/images/destinations/lebanon.jpg" alt="Lebanese nature and river landscape" loading="lazy">
+            <div class="destination-overlay"><span>Lebanon</span><h3>Lebanon</h3><p>Mountains, coastlines, heritage, food, and local adventure.</p></div>
+          </article>
+          <article class="destination-card">
+            <img src="assets/images/destinations/maldives.jpg" alt="Luxury ocean resort in the Maldives" loading="lazy">
+            <div class="destination-overlay"><span>Maldives</span><h3>Maldives</h3><p>Calm turquoise water and a slower island rhythm.</p></div>
+          </article>
+          <article class="destination-card">
+            <img src="assets/images/destinations/rome.jpg" alt="Colosseum in Rome" loading="lazy">
+            <div class="destination-overlay"><span>Italy</span><h3>Rome</h3><p>History, architecture, food, and streets full of character.</p></div>
+          </article>
+          <article class="destination-card">
+            <img src="assets/images/destinations/bali.jpg" alt="Bali rice terraces and tropical landscape" loading="lazy">
+            <div class="destination-overlay"><span>Indonesia</span><h3>Bali</h3><p>Nature, culture, beaches, and peaceful tropical scenery.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading text-center mx-auto">
+          <p class="eyebrow dark">Travel moments</p>
+          <h2 class="section-title">A Gallery Made for Wandering</h2>
+          <p>A visual mix of coastlines, cities, landscapes, and the details that make each destination feel distinct.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-featured"><img src="assets/images/gallery/gallery-01.jpg" alt="Colorful coastal destination" loading="lazy"></figure>
+          <figure class="gallery-item gallery-tall"><img src="assets/images/gallery/gallery-02.jpg" alt="Scenic tropical destination" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery/gallery-03.jpg" alt="European landscape and waterfront" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery/gallery-04.jpg" alt="Iconic colorful city architecture" loading="lazy"></figure>
+          <figure class="gallery-item gallery-wide"><img src="assets/images/gallery/gallery-05.jpg" alt="Historic city and skyline" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery/gallery-06.jpg" alt="European city landmark" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery/gallery-07.jpg" alt="City skyline at sunset" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery/gallery-08.jpg" alt="Travel destination cityscape" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="reviews">
+      <div class="container">
+        <div class="section-heading text-center mx-auto">
+          <p class="eyebrow dark">Traveler notes</p>
+          <h2 class="section-title">Simple experiences, memorable journeys.</h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4"><blockquote class="review-card h-100"><div class="rating" aria-label="5 out of 5 stars">★★★★★</div><p>“The itinerary felt clear and easy to follow, and the whole trip had a relaxed pace.”</p><footer>Sarah K. <span>City Escape</span></footer></blockquote></div>
+          <div class="col-md-6 col-lg-4"><blockquote class="review-card h-100"><div class="rating" aria-label="5 out of 5 stars">★★★★★</div><p>“A smooth experience from planning to travel day. The destination suggestions were exactly what we needed.”</p><footer>Omar R. <span>Couples Trip</span></footer></blockquote></div>
+          <div class="col-md-6 col-lg-4"><blockquote class="review-card h-100"><div class="rating" aria-label="5 out of 5 stars">★★★★★</div><p>“The combination of culture, food, and sightseeing made the trip feel balanced instead of rushed.”</p><footer>Maria L. <span>European Journey</span></footer></blockquote></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-card text-center">
+          <p class="eyebrow">Your next trip starts here</p>
+          <h2 id="cta-title">Ready for your next adventure?</h2>
+          <p>Tell us where you want to go, what kind of experience you enjoy, and the details that matter to you.</p>
+          <a class="btn btn-light btn-lg" href="form-page.html">Plan Your Trip</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <div class="footer-brand">Nomadica</div>
+          <p>Thoughtful travel ideas, inspiring destinations, and a simple frontend experience created as an early web development training project.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h2>Quick Links</h2>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li><li><a href="#destinations">Destinations</a></li><li><a href="#gallery">Gallery</a></li><li><a href="form-page.html">Plan Your Trip</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h2>Contact</h2>
+          <ul class="footer-contact">
+            <li>Beirut, Lebanon</li>
+            <li><a href="mailto:info@nomadicacompany.com">info@nomadicacompany.com</a></li>
+            <li><a href="tel:+96170123456">+961 70 123 456</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Nomadica Company</span>
+        <span>Frontend training project</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
